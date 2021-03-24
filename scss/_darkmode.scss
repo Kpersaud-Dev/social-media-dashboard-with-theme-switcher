@@ -1,0 +1,42 @@
+$very-dark-blue-bg: hsl(230, 17%, 14%);
+$dark-desaturated-blue-card: hsl(232, 19%, 15%);
+$desaturated-blue: hsl(228, 34%, 66%);
+$white: hsl(0, 0%, 100%);
+
+body.dark {
+  background-color: $very-dark-blue-bg;
+}
+
+header {
+
+  .heading.dark {
+    color: $white;
+  }
+}
+
+.socials {
+
+  .card.dark {
+    background-color: $dark-desaturated-blue-card;
+    color: $white;
+
+    .followers {
+
+      .big-number .dark {
+        color: $white;
+      }
+    }
+  }
+}
+
+.overview {
+
+  .overview-header.dark {
+    color: $white;
+  }
+
+  .mini-card.dark {
+    background-color: $dark-desaturated-blue-card;
+    color: $white;
+  }
+}
